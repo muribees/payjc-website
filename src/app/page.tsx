@@ -88,9 +88,8 @@ function Hero() {
             <div className="h-1 w-24 bg-blue-400 mb-6" />
             <p className="text-lg md:text-xl text-blue-200/80 max-w-lg leading-relaxed mb-8">
               An educational event at Paly&apos;s Media Arts Center where
-              4th&ndash;8th graders explore journalism firsthand — writing,
-              photography, broadcasting, and design — taught by the students
-              behind Paly&apos;s award-winning publications.
+              4th&ndash;8th graders explore journalism firsthand. Learning the basics of AP style writing,
+              photography, broadcasting, and design from students at the best high school journalism program in the United States.
             </p>
             <a
               href="#register"
@@ -141,13 +140,12 @@ function About() {
           {/* Lead story — big left column */}
           <div className="md:col-span-7 mb-12 md:mb-0">
             <h3 className="font-serif text-2xl md:text-3xl font-bold text-blue-950 mb-4 leading-tight">
-              A structured introduction to journalism for younger PAUSD students
+              The perfect introduction to journalism for interested PAUSD students
             </h3>
             <div className="h-0.5 w-16 bg-blue-500 mb-4" />
             <p className="text-gray-600 leading-relaxed text-lg mb-6">
               PAYJC is a half-day convention organized by Paly&apos;s journalism
-              program. Students rotate through two workshops of their choice —
-              covering news writing, photojournalism, video production, magazine
+              program. Students rotate through workshops covering news writing, photojournalism, video production, magazine
               design, and more — each led by experienced high school student
               journalists.
             </p>
@@ -167,11 +165,11 @@ function About() {
                 Publications
               </p>
               <h4 className="font-serif text-xl font-bold text-blue-950 mb-2">
-                All five Paly publications participate
+                Publications from Paly and Gunn participate
               </h4>
               <p className="text-gray-600 leading-relaxed">
                 Students will interact with staff from C Magazine, The
-                Campanile, Viking, Paly Voice, and InFocus — learning what
+                Campanile, Viking, Paly Voice, InFocus, Incubator, Verde, Madrono, and The Gunn Oracle to learn what
                 each publication covers and how they operate.
               </p>
             </div>
@@ -180,12 +178,11 @@ function About() {
                 What&apos;s Included
               </p>
               <h4 className="font-serif text-xl font-bold text-blue-950 mb-2">
-                T-shirt, lunch, notebook, and lanyard
+                T-shirt, lunch, reporter's notebook, and press pass
               </h4>
               <p className="text-gray-600 leading-relaxed">
-                The $10 registration covers everything for the morning —
-                including a PAYJC t-shirt, Costco pizza lunch, a reporter&apos;s
-                notebook, and a lanyard.
+                $10 registration covers everything: a PAYJC t-shirt, pizza lunch, a reporter&apos;s
+                notebook, and a junior journalist press pass.
               </p>
             </div>
             <div className="border-t border-blue-100 pt-8">
@@ -193,7 +190,7 @@ function About() {
                 Camp MAC
               </p>
               <h4 className="font-serif text-xl font-bold text-blue-950 mb-2">
-                Attendees receive a Camp MAC discount
+                Attendees receive a Camp MAC discount, check it out!
               </h4>
               <p className="text-gray-600 leading-relaxed">
                 Students who attend PAYJC get a discount on Camp MAC, the
@@ -213,8 +210,8 @@ function Schedule() {
   const timeline = [
     { time: "9:30 AM", event: "Check-in Opens", detail: "Grab your lanyard & t-shirt" },
     { time: "10:00 AM", event: "Opening Ceremony", detail: "Welcome & introductions" },
-    { time: "10:20 AM", event: "Workshop Block 1", detail: "Choose your first session" },
-    { time: "11:00 AM", event: "Workshop Block 2", detail: "Try something different" },
+    { time: "10:20 AM", event: "Workshop Block 1", detail: "Hands-on journalism session" },
+    { time: "11:00 AM", event: "Workshop Block 2", detail: "Hands-on journalism session" },
     { time: "11:40 AM", event: "Pizza & Publication Fair", detail: "Eat, explore, ask questions" },
     { time: "12:15 PM", event: "Closing & Camp MAC Info", detail: "Wrap-up and next steps" },
     { time: "12:30 PM", event: "Dismissal", detail: "See you at Camp MAC!" },
@@ -323,7 +320,7 @@ function Workshops() {
           </h2>
         </div>
         <p className="text-gray-500 text-lg mb-12">
-          Pick two. All sessions led by Paly student journalists.
+          All sessions led by Paly student journalists.
         </p>
 
         <div className="grid md:grid-cols-2 gap-0">
@@ -383,8 +380,7 @@ function Register() {
             <div className="h-1 w-20 bg-white/40 mb-6" />
             <p className="text-blue-100 text-lg leading-relaxed max-w-lg">
               $10 per student. Includes a t-shirt, lunch, reporter&apos;s
-              notebook, and lanyard. Space is limited to 50 students and
-              spots are filled on a first-come, first-served basis.
+              notebook, and junior journalist press pass.
             </p>
           </div>
           <div className="md:col-span-5 md:text-right">
@@ -409,11 +405,11 @@ function FAQ() {
   const faqs = [
     {
       q: "Who is this for?",
-      a: "PAUSD students currently in grades 4 through 8. No prior journalism experience is needed — the workshops are designed as introductions.",
+      a: "PAUSD students (some exceptions) currently in grades 4 through 8. No prior journalism experience is needed. The workshops are designed as introductions to the basics.",
     },
     {
       q: "What does registration include?",
-      a: "The $10 fee covers a PAYJC t-shirt, lunch (pizza), a reporter's notebook, and a lanyard. There are no additional costs.",
+      a: "The $10 fee covers a PAYJC t-shirt, lunch (pizza), a reporter's notebook, and a lanyard/press pass. There are no additional costs.",
     },
     {
       q: "Where is the event held?",
