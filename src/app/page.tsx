@@ -76,7 +76,7 @@ function Hero() {
           {/* Main headline — takes most of the space */}
           <div className="md:col-span-8">
             <p className="text-xs font-semibold tracking-[0.3em] uppercase text-blue-400 mb-4">
-              Vol. I &mdash; Paly Media Arts Center &mdash; April 17, 2026
+              Vol. I &mdash; Paly Media Arts Center &mdash; April 25, 2026
             </p>
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-black leading-[0.9] mb-6 text-white">
               Palo Alto Youth
@@ -103,7 +103,7 @@ function Hero() {
             <div className="text-blue-300 text-sm space-y-4">
               <div>
                 <p className="text-[11px] uppercase tracking-widest text-blue-400 mb-1">When</p>
-                <p className="font-serif text-xl text-white font-bold">Saturday, April 17</p>
+                <p className="font-serif text-xl text-white font-bold">Saturday, April 25</p>
                 <p>10:00 AM &ndash; 12:30 PM</p>
               </div>
               <div>
@@ -228,7 +228,7 @@ function Schedule() {
             <h2 className="font-serif text-4xl md:text-5xl font-black leading-tight mb-4">
               Saturday,
               <br />
-              April 17th
+              April 25th
             </h2>
             <div className="h-1 w-16 bg-blue-400 mb-4" />
             <p className="text-blue-300 text-lg">
@@ -481,7 +481,7 @@ function Footer() {
                 Event
               </p>
               <ul className="space-y-2 text-blue-300">
-                <li>Saturday, April 17, 2026</li>
+                <li>Saturday, April 25, 2026</li>
                 <li>10:00 AM &ndash; 12:30 PM</li>
                 <li>Paly Media Arts Center</li>
               </ul>
