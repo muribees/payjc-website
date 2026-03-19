@@ -35,14 +35,18 @@ function Nav() {
             FAQ
           </a>
           <a
-            href="#register"
+            href="https://www.activityhero.com/biz/53231-camp-mac-palo-alto-ca/palo-alto-youth-journalism-convention-225513/1912333?aht_cam=schedule-widget&aht_src=54201&brand=1"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-blue-600 text-white px-5 py-2 hover:bg-blue-700 transition normal-case tracking-normal"
           >
             Register &rarr;
           </a>
         </div>
         <a
-          href="#register"
+          href="https://www.activityhero.com/biz/53231-camp-mac-palo-alto-ca/palo-alto-youth-journalism-convention-225513/1912333?aht_cam=schedule-widget&aht_src=54201&brand=1"
+          target="_blank"
+          rel="noopener noreferrer"
           className="md:hidden bg-blue-600 text-white px-4 py-2 text-sm font-semibold"
         >
           Register
@@ -92,7 +96,9 @@ function Hero() {
               photography, broadcasting, and design from students at the best high school journalism program in the United States.
             </p>
             <a
-              href="#register"
+              href="https://www.activityhero.com/biz/53231-camp-mac-palo-alto-ca/palo-alto-youth-journalism-convention-225513/1912333?aht_cam=schedule-widget&aht_src=54201&brand=1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-blue-500 text-white px-8 py-4 text-lg font-semibold hover:bg-blue-400 transition"
             >
               Register Now &rarr;
@@ -153,7 +159,7 @@ function About() {
               The event gives younger students early exposure to the Media Arts
               program at Paly and a chance to see what student journalism looks
               like in practice. It&apos;s a low-commitment way to find out if your
-              child is interested before signing up for the full Camp MAC
+              child is interested before signing up for the full <a href="https://campmacpalyjournalism.weebly.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800 transition">Camp MAC</a>
               experience this summer.
             </p>
           </div>
@@ -190,10 +196,10 @@ function About() {
                 Camp MAC
               </p>
               <h4 className="font-serif text-xl font-bold text-blue-950 mb-2">
-                Attendees receive a Camp MAC discount, check it out!
+                Attendees receive a <a href="https://campmacpalyjournalism.weebly.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700 transition">Camp MAC</a> discount, check it out!
               </h4>
               <p className="text-gray-600 leading-relaxed">
-                Students who attend PAYJC get a discount on Camp MAC, the
+                Students who attend PAYJC get a discount on <a href="https://campmacpalyjournalism.weebly.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800 transition">Camp MAC</a>, the
                 week-long summer journalism camp held at the same facility.
                 A natural next step for kids who enjoy the convention.
               </p>
@@ -388,7 +394,9 @@ function Register() {
               Registration closes March 31
             </p>
             <a
-              href="#"
+              href="https://www.activityhero.com/biz/53231-camp-mac-palo-alto-ca/palo-alto-youth-journalism-convention-225513/1912333?aht_cam=schedule-widget&aht_src=54201&brand=1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-white text-blue-700 px-10 py-5 text-xl font-bold hover:bg-blue-50 transition"
             >
               Register Now &rarr;
